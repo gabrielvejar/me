@@ -93,7 +93,8 @@
 
 $(function(){
 
-
+    document.querySelector("#branding-action-bar").style.display = "none";
+    document.querySelector("#abuse-disclaimer-root").style.display = "none";
 
     window.addEventListener('scroll', () => {
 
