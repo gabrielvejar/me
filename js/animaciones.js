@@ -10,8 +10,8 @@ if(window.innerWidth<=640){
 
 $(function(){
 
-    document.querySelector("#branding-action-bar").style.display = "none";
-    document.querySelector("#abuse-disclaimer-root").style.display = "none";
+    document.querySelector("#branding-action-bar")?.style?.display = "none";
+    document.querySelector("#abuse-disclaimer-root")?.style?.display = "none";
     
     var titulos_gabriel = new Typed('#titulos-gabriel', {
     // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],
