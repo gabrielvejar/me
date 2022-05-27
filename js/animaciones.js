@@ -22,18 +22,6 @@ function calcularEdad(fecha) {
 
 $(function(){
     document.getElementById("edad").innerText = calcularEdad("07-08-1991");
-
-    setInterval(() => {
-        const actionbar = document.querySelector("#branding-action-bar")
-        const disclaimer = document.querySelector("#abuse-disclaimer-root")
-        if (actionbar?.style?.display) {
-            actionbar.style.display = "none";
-        }
-        if (disclaimer?.style?.display) {
-            disclaimer.style.display = "none";
-        }
-    }, 2000);
-
     
     var titulos_gabriel = new Typed('#titulos-gabriel', {
     // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],

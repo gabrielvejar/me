@@ -207,6 +207,8 @@ main{
 
 #consola-contacto {
     padding: 0;
+    height: 450px;
+    overflow: hidden;
 }
 
 /* and (orientation: portrait) */
