@@ -7,11 +7,24 @@ if(window.innerWidth<=640){
     document.querySelector('#iconos').setAttribute("data-aos" , "slide-right");
 }
 
+function calcularEdad(fecha) {
+    var hoy = new Date();
+    var cumpleanos = new Date(fecha);
+    var edad = hoy.getFullYear() - cumpleanos.getFullYear();
+    var m = hoy.getMonth() - cumpleanos.getMonth();
+
+    if (m < 0 || (m === 0 && hoy.getDate() < cumpleanos.getDate())) {
+        edad--;
+    }
+
+    return edad;
+}
 
 $(function(){
+    document.getElementById("edad").innerText = calcularEdad("07-08-1991");
 
-    document.querySelector("#branding-action-bar").style.display = "none";
-    document.querySelector("#abuse-disclaimer-root").style.display = "none";
+    // document.querySelector("#branding-action-bar").style.display = "none";
+    // document.querySelector("#abuse-disclaimer-root").style.display = "none";
     
     var titulos_gabriel = new Typed('#titulos-gabriel', {
     // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],
