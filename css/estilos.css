@@ -208,7 +208,9 @@ main{
 #consola-contacto {
     padding: 0;
     height: 450px;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* and (orientation: portrait) */
