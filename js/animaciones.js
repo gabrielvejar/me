@@ -27,10 +27,10 @@ $(function(){
         const actionbar = document.querySelector("#branding-action-bar")
         const disclaimer = document.querySelector("#abuse-disclaimer-root")
         if (actionbar.style?.display) {
-            actionbar.style?.display = "none";
+            actionbar.style.display = "none";
         }
         if (disclaimer.style?.display) {
-            disclaimer.style?.display = "none";
+            disclaimer.style.display = "none";
         }
     }, 2000);
 
