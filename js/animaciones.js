@@ -21,18 +21,18 @@ function calcularEdad(fecha) {
 }
 
 $(function(){
-    document.getElementById("edad").innerText = calcularEdad("07-08-1991");
+    // document.getElementById("edad").innerText = calcularEdad("07-08-1991");
     
     var titulos_gabriel = new Typed('#titulos-gabriel', {
-    // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],
-    strings: ['Ingeniero en Telecomunicaciones,<br> Conectividad y Redes' , 'Desarrollador Web' , 'Programador JavaScript' , 'Programador PHP' , 'Programador Java' , 'Programador Python'],
-    // strings: ['Ingeniero en Telecomunicaciones, Conectividad y Redes' , 'Code enthusiast'],
-    // strings: ['Java develo' , 'Java programm' , 'Java coder' , 'Java ^2000' , 'Java lover <3'],
-    typeSpeed: 40,
-    startDelay: 1000,
-    loop: true,
-    showCursor: false,
-});
+        // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],
+        strings: ['Telecommunications, Connectivity,<br>and Network Engineering' , 'Web developer' , 'ReactJS developer' , 'PHP developer' , 'NodeJS developer' , 'Cypress E2E testing'],
+        // strings: ['Ingeniero en Telecomunicaciones, Conectividad y Redes' , 'Code enthusiast'],
+        // strings: ['Java develo' , 'Java programm' , 'Java coder' , 'Java ^2000' , 'Java lover <3'],
+        typeSpeed: 40,
+        startDelay: 1000,
+        loop: true,
+        showCursor: false,
+    });
 
 var typed1 = new Typed('#typed-info', {
     stringsElement: '#texto-info',

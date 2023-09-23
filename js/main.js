@@ -59,7 +59,7 @@
 
             var titulos_gabriel = new Typed('#titulos-gabriel', {
                 // strings: ['engen' , 'enginier' , 'enge' , 'engine' , 'e^2000' , 'ingeniero', 'web designer' , 'JavaScript programmer' , 'PHP programmer' , 'Java programmer' , 'Python programmer', 'and more...^2000' , '1313' ],
-                strings: ['Ingeniero en Telecomunicaciones,<br> Conectividad y Redes' , 'Desarrollador web' , 'Programador JavaScript' , 'Programador PHP' , 'Programador Java' , 'Programador Python'],
+                strings: ['Telecommunications, Connectivity,<br>and Network Engineering' , 'Web developer' , 'ReactJS developer' , 'PHP developer' , 'NodeJS developer' , 'Cypress E2E testing'],
                 // strings: ['Ingeniero en Telecomunicaciones, Conectividad y Redes' , 'Code enthusiast'],
                 // strings: ['Java develo' , 'Java programm' , 'Java coder' , 'Java ^2000' , 'Java lover <3'],
                 typeSpeed: 40,

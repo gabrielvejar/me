@@ -211,6 +211,10 @@ main{
     overflow: hidden;
 }
 
+.white {
+    color: white;
+}
+
 /* and (orientation: portrait) */
 @media screen and (min-width : 641px){
     
@@ -319,5 +323,4 @@ main{
         border-right: 0;
         border-bottom: 3px solid rgb(255, 136, 0);
     }
-
 }
