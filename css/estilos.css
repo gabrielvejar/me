@@ -215,6 +215,14 @@ main{
     color: white;
 }
 
+.property {
+    color: rgba(54,148,167,1)
+}
+
+.grey {
+    color: grey
+}
+
 /* and (orientation: portrait) */
 @media screen and (min-width : 641px){
     
